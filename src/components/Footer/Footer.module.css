@@ -1,0 +1,49 @@
+.footer {
+    padding: 1rem 2rem;
+    /* Pristojan prostor oko sadržaja */
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Container za sadržaj footera (npr. linkove, informacije o autorskim pravima, itd.) */
+.container {
+    max-width: 1200px;
+    /* Ovo možete prilagoditi prema potrebama dizajna */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem 1rem;
+    /* Margina između sekcija */
+}
+
+/* Stil za linkove unutar footera */
+.link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+    /* Prijelaz za hover efekt */
+}
+
+.link:hover {
+    color: #ddd;
+    /* Promena boje na hover */
+}
+
+/* Stil za tekst o autorskim pravima */
+.copyright {
+    margin-top: 1rem;
+    text-align: center;
+}
